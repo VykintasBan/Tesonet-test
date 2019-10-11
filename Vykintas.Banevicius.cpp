@@ -34,7 +34,7 @@ void Prime()
 {
     for(int i=0; i<length; i++)
     {
-        if(range[i]==2 || (range[i]>2 && range[i]/2!=0))
+        if(range[i]==2 || (range[i]>2 && range[i]%2!=0))
         prime++;
     }
 }
